@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/Float64.msg"
     "msg/Bool.msg"
+    "msg/LogDatum.msg"
     )
 
 ament_export_dependencies(rosidl_default_runtime)
