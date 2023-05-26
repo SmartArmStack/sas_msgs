@@ -1,0 +1,12 @@
+std_msgs/Header header
+int32 packet_version
+geometry_msgs/Pose pose
+geometry_msgs/Twist twist
+string sender_ip
+int32 sender_port
+string label
+bool clutch
+bool[] additional_keys
+float64 motion_scaling
+float64 button
+float64 gripper
