@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/LogDatum.msg"
     "msg/InformationFromMaster.msg"
     "msg/InformationToMaster.msg"
+    "msg/WatchdogTrigger.msg"
     
     DEPENDENCIES
     std_msgs
