@@ -10,3 +10,4 @@ bool[] additional_keys
 float64 motion_scaling
 float64 button
 float64 gripper
+float64[] joint_values
